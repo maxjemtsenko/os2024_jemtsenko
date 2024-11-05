@@ -13,5 +13,6 @@ Tehnoloogia ja ühilduvus: GPT saab kasutada täiustatud seadmetehnoloogiaid, sa
 -t auto: -t määrab haakimise failisüsteemi tüübi. Kui kasutatakse auto, proovib süsteem partitsiooni sisu põhjal automaatselt määrata failisüsteemi tüübi. 
 
 **Küsimus 6:** Ubuntu auto parameeteri asendas ntfs väärtusega.
+
 ![vmbox details](./pildid/os_praks7.3.10.png)
 ![vmbox details](./pildid/os_praks7.6.5.png)

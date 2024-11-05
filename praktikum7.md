@@ -9,8 +9,7 @@ Tehnoloogia ja ühilduvus: GPT saab kasutada täiustatud seadmetehnoloogiaid, sa
 
 **Küsimus 3:** https://kodu.ut.ee/~maksimje/opsys/hdd.png
 
-**Küsimus 5:** -o ro: haakib failisüsteemi režiimis "read-only".
--t auto: -t määrab haakimise failisüsteemi tüübi. Kui kasutatakse auto, proovib süsteem partitsiooni sisu põhjal automaatselt määrata failisüsteemi tüübi. 
+**Küsimus 5:** -o ro: haakib failisüsteemi režiimis "read-only". -t auto: -t määrab haakimise failisüsteemi tüübi. Kui kasutatakse auto, proovib süsteem partitsiooni sisu põhjal automaatselt määrata failisüsteemi tüübi. 
 
 **Küsimus 6:** Ubuntu auto-parameetri asendas ntfs väärtusega.
 

@@ -1,4 +1,3 @@
 # Praktikum 9 - ressursihaldus
-| test | test | test |
-| ---- | ---- | --- |
-|test2 | test3 | test4t est5 |
+| Küsimus| Linux | Windows | Linuxis kasutatud käsklus | Windowsis kasutatud tööriist |
+| Mitu protsessi kokku arvutis käib?| | | | |

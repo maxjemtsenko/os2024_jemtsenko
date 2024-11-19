@@ -11,3 +11,4 @@
 |  Milline on kõige rohkem füüsilist mälu (working set) võttev protsess?  |   /usr/bin/gnome-shell - 15,4%  |  VirtualBox Virtual Machine - 2893.7 MB  |  htop -> MEM  |  Task Manager -> Processes -> Memory  |
 |  Kui palju füüsilisest mälust (Physical Memory) on vaba ja kui palju hõivatud?  |  Vaba - 237 Mi, hõivatud - 943 Mi  |  Vaba - 3.1 GB, hõivatud - 12,3 GB  |  free -h  |  Task Manager -> Performance -> Memory  |
 |  Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt?  |  Vaba - 24 GB (49%)  |  Vaba ruumi - 233 GB (49.16%)  |  df -h  |  File explorer -> Thic PC -> C: Properties -> General  |
+|  Milline on kõige suurem arvutis olev fail ja kõige rohkem andmemahtu hõivav kaust (arvesse võta ka alamkaustade mahtu, ja jätta juurkaust / või C: välja)?  |  /usr - 7.4 G, /var/lib/snapd/snaps/gnome-42-2204_141.snap - 497 M  |  C:Users - 145 GB, Virtual Disk Image - 101 GB  |  sudo du -ah / /| sort -rh /| head -n 50  |  WinDirStat -> C:  |

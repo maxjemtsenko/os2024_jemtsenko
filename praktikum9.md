@@ -1,4 +1,5 @@
 # Praktikum 9 - ressursihaldus
+Selles praktikas uurisime ressursside jälgimist ja haldamist Windowsis ja Linuxis. Analüüsisime protsessori-, mälu-, ketta- ja võrgukasutust, tuvastasime kõige ressursimahukamad protsessid ja failid
 |  Küsimus  |  Linux  |  Windows  |  Linuxis kasutatud käsklus  |  Windowsis kasutatud tööriist  |
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 |  Mitu protsessi kokku arvutis käib?  |  225  |  299  |  ps -aux \| wc -l  |  Task Manager -> Performance -> Processes |
@@ -16,3 +17,5 @@
 |  Vasta järgnevatele alamküsimustele: (Ainult Windowsis): 1. Milline protsess kõige rohkem salvestusseadmele kirjutab? 2. Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab? 3. Milline protsess kõige rohkem salvestusseadmelt loeb? 4. Millisest failist eelmise küsimuse protsess kõige rohkem loeb?  |   |  1. system 2. C:\ProgramData\Intel\Connectivity\ActivityLog\IntelligenceEvents_ActivityLog.etl 3. System 4. C:\ProgramData\Intel\Connectivity\ActivityLog\IntelligenceEvents_ActivityLog.etl  |    | Task Manager -> Performance -> Resource Monitor -> Disk -> Processes with Disk Activity (Read/Write) -> Disk Activity (Read/Write)  |
 |  Millise protsessi poolt tekitatud võrguliiklus on suurima mahuga? Vali antud protsessi poolt kasutatavatest ühendustest üks ning kirjuta välja järgnev: kohalik IP-aadress, kohalik port, ühenduse teise poole IP-aadress, port, latents ja antud ühenduse poolt kasutatav võrguliikluse kogumaht. (Ainult Windowsis) Lisa ka ekraanipilt aruande juurde näiteks pärast tabelit  |    |  Protsess: openvpn.exe; Local Address: IPv4 loopback; Local Port: 52586; Remote Address: IPv4 loopback; Remote Port: 52585; Latency: 0 ms; Total bytes: 1581  |    |  Task Manager -> Performance -> Resource Monitor -> Network -> Processes with Network Activity (Total) -> TCP Connections |
 |  Sõber kurdab, et tema arvuti on oluliselt aeglasemaks muutunud. Milliseid konkreetseid programme või käsureakäske kasutad põhjustaja tuvastamiseks. Mõlemal juhul kirjuta, mida konkreetselt jälgid (nt mis aken, veerud, numbrid jne). (Vali Linuxis või Windowsis)  |   |  Leida protsess, mis kulub enim ressursi. Properties abiga uurida protsess lähemalt  |   |  Task Manager -> Processes -> CPU, Memory, Disk -> Performance -> CPU, Memory, Disk  |
+![praktikum3](./pildid/os_praks9.12.png)
+![praktikum3](./pildid/os_praks9.14.png)

@@ -7,3 +7,4 @@
 |  Kui kaua on arvuti järjest töötanud (up time)? (Alternatiivselt võib vastata ka, millal (kuupäev ja kellaaeg) arvuti viimati käima pandi.)  |  15:21:54 up 7 min  |  0:23:24:20  |  uptime  |  Task Manager -> Performance -> Up time  |
 |  Milline protsess käivitati kõige hiljem (viimasena)? (Mitte võtta arvesse programmi, millega seda infot otsida.)  |  4220   00:07 [kworker/u5:0]  |  CreationDate=20241119153508.518921+120 Name=chrome.exe  |  ps -eo pid,etime,cmd --sort=-etime  |  CMD -> wmic process get Name,CreationDate /format:list  |
 |  Milline on kõige rohkem protsessoriaega võttev protsess ja kui mitu protsenti protsessoriajast ta tarbib?  |  /usr/bin/gnome-shell - 7.9%  |  Task Manager - 4.2%  |  htop  |  Task Manager -> Processes -> CPU  |
+|  Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess?  |  /usr/bin/gnome-shell - 4527M  |  chrome.exe - 3 432 750 972 K  |  htop -> Shift+M  |  Process Explorer -> Virtual Size  |

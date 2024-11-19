@@ -10,3 +10,4 @@
 |  Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess?  |  /usr/bin/gnome-shell - 4527M  |  chrome.exe - 3 432 750 972 K  |  htop -> VIRT  |  Process Explorer -> Virtual Size  |
 |  Milline on kõige rohkem füüsilist mälu (working set) võttev protsess?  |   /usr/bin/gnome-shell - 15,4%  |  VirtualBox Virtual Machine - 2893.7 MB  |  htop -> MEM  |  Task Manager -> Processes -> Memory  |
 |  Kui palju füüsilisest mälust (Physical Memory) on vaba ja kui palju hõivatud?  |  Vaba - 237 Mi, hõivatud - 943 Mi  |  Vaba - 3.1 GB, hõivatud - 12,3 GB  |  free -h  |  Task Manager -> Performance -> Memory  |
+|  Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt?  |  Vaba - 24 G (49%)  |  Vaba ruumi - 233 GB (49.16%)  |  df -h  |  File explorer -> Thic PC -> C: Properties -> General  |

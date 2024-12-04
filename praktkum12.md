@@ -52,3 +52,20 @@ do
 	fi
 done
 ```
+**Ülesanne 6:**
+```
+#!/bin/bash
+
+astendamine () {
+	b=$1
+	a=0
+	while [ $a -lt $2 ]
+	do
+		b=$(($b*$1))
+		a=$(($a+1))
+	done
+	echo $b
+}
+vastus=$( astendamine 9 4)
+echo $vastus
+```

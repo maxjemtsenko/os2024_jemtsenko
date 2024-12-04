@@ -6,4 +6,4 @@ echo "Sisesta eriala:"
 read eriala
 echo "Sisesta matriklinumber:"
 read number
-echo "$nimi, $eriala, $number" ```
+echo "$nimi, $eriala, $number"```

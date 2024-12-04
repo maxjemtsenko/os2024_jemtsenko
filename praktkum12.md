@@ -1,3 +1,6 @@
+# Praktikum12 - Skriptimine Linuxis
+Praktikumis õppisime skriptide kirjutamise põhitõdesid, muutujate, juhtkonstruktsioonide ja funktsioonide kasutamist koos näidetega praktiliseks tööks.
+
 **Ülesanne 3:** 
 ```
 #!/bin/sh
@@ -69,3 +72,9 @@ astendamine () {
 vastus=$( astendamine 9 4)
 echo $vastus
 ```
+![praktikum12](./pildid/praks12_3.png)
+![praktikum12](./pildid/praks12_4.png)
+![praktikum12](./pildid/praks12_5.png)
+![praktikum12](./pildid/praks12_6.png)
+![praktikum12](./pildid/praks12_7.1.png)
+![praktikum12](./pildid/praks12_7.2.png)

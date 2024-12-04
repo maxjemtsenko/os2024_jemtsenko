@@ -38,3 +38,19 @@ do
     fi
 done
 ```
+**Ülesanne 5:**
+```
+#!/bin/bash
+protsess=$1
+IFS=$'\n'
+for i in $(ps -A)
+do
+	tuhikuta=$(echo $i | tr -s ' ')
+	pid=$(echo "$tuhikuta" | cut -d ' ' -f2)
+	name=$(echo "$tuhikuta" | cut -d ' ' -f5)
+	if [ "$name" == "$protsess" ]
+	then
+		echo "$name, $pid"
+	fi
+done
+```

@@ -58,7 +58,7 @@ done
 
 astendamine () {
 	b=$1
-	a=0
+	a=1
 	while [ $a -lt $2 ]
 	do
 		b=$(($b*$1))

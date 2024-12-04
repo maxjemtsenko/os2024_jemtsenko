@@ -12,10 +12,8 @@ echo "$nimi, $eriala, $number"
 **Ülesanne 4:**
 ```
 #!/bin/bash
-echo "Sisesta laiend A:"
-read A
-echo "Sisesta laiend B:"
-read B
+A=$1
+B=$2
 
 valjund=$(ls)
 for i in $valjund

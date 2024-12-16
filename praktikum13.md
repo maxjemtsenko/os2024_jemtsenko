@@ -1,6 +1,6 @@
 Praktikum 13 - Skriptimine Windowsis
 
-'''
+```
 $hostname = hostname 
 Write-Host "Hostname:" $hostname
 
@@ -39,4 +39,4 @@ $protsesside_arv = (Get-Process).Count
 Write-Host "`nKäimasolevate protsesside arv: $protsesside_arv"
 
 Get-Date
-'''
+```

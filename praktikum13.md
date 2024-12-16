@@ -50,14 +50,25 @@ Stop-Transcript
 ```$hostname = hostname``` - Salvestab arvuti nime muutujas $hostname ja kuvab selle käsu Write-Host abil.
 
 ```$version = $PSVersionTable.PSVersion``` - Hangib PowerShelli versiooni ja kuvab selle.
+
 ```$osVersion = (Get-ComputerInfo).OsVersion``` - Hangib Windowsi operatsioonisüsteemi versiooni ja kuvab selle.
+
 ```Get-WmiObject Win32_NetworkAdapterConfiguration``` - Otsib teavet võrguadapterite kohta.
+
 ```Get-WmiObject Win32_ComputerSystem``` – hangib kogu süsteemi füüsilise mälu ja kuvab selle.
+
 ```Get-WmiObject Win32_Processor``` – hangib protsessori teabe.
+
 ```Get-WmiObject Win32_VideoController``` - hangib teavet videokaardi kohta.
+
 ```Get-Partition``` – kuvab teavet ketta partitsioonide kohta.
+
 ```Get-WmiObject Win32_LogicalDisk``` – hangib: Seadme ID, failisüsteem kogumaht (gigabaitides), vaba ruumi (gigabaitides).
+
 ```Get-WmiObject Win32_PnpSignedDriver``` – hangib PCI-seadmete draiverite loendi, sealhulgas nende kirjelduse ja draiveri versiooni.
+
 ```Get-WmiObject Win32_UserAccount``` – hangib kohalike kasutajate loendi.
+
 ```Get-Process``` – hangib teavet protsesside kohta.
+
 ```Get-Date``` – kuvab praeguse kuupäeva ja kellaaja.

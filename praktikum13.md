@@ -1,6 +1,8 @@
 Praktikum 13 - Skriptimine Windowsis
 
 ```
+Start-Transcript -Path "output.txt"
+
 $hostname = hostname 
 Write-Host "Hostname:" $hostname
 
@@ -38,5 +40,8 @@ Get-Process | Where-Object {$_.StartTime -ne $null} | Sort-Object StartTime -Des
 $protsesside_arv = (Get-Process).Count
 Write-Host "`nKäimasolevate protsesside arv: $protsesside_arv"
 
-Get-Date
+Write-Host "`nKuupäev ja kellaaeg"
+Write-Host (Get-Date)
+
+Stop-Transcript
 ```

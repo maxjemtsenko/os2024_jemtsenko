@@ -1,5 +1,5 @@
 Praktikum 13 - Skriptimine Windowsis
-# Workshop 13 keskendus skriptide loomisele Windowsis PowerShelli abil rutiinsete toimingute, näiteks süsteemiteabe kogumise automatiseerimiseks
+# Käesolevas praktikumis uuriti skriptide loomisele Windowsis PowerShelli abil rutiinsete toimingute, näiteks süsteemiteabe kogumise automatiseerimiseks.
 
 ```
 Start-Transcript -Path "output.txt"

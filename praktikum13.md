@@ -46,7 +46,9 @@ Write-Host (Get-Date)
 Stop-Transcript
 ```
 ``` Start-Transcript -Path "os_praktikum13_output.txt" ``` ja ```Stop-Transcript``` - Alustab kõigi väljundite kirjutamist faili "os_praktik13_output.txt" ja Peatab väljundi faili kirjutamise.
+
 ```$hostname = hostname``` - Salvestab arvuti nime muutujas $hostname ja kuvab selle käsu Write-Host abil.
+
 ```$version = $PSVersionTable.PSVersion``` - Hangib PowerShelli versiooni ja kuvab selle.
 ```$osVersion = (Get-ComputerInfo).OsVersion``` - Hangib Windowsi operatsioonisüsteemi versiooni ja kuvab selle.
 ```Get-WmiObject Win32_NetworkAdapterConfiguration``` - Otsib teavet võrguadapterite kohta.

@@ -3,7 +3,7 @@ Käesolevas praktikumis analüüsitsime ja optimeeritasime tarkvara ja süsteemi
 
 *Ülesanne 3:* Käsu täitmisel käivitatakse fail kaustast, mis on "%Path%" muutujas esimene. Failide otsimise järjekorra määrab selles muutujas loetletud kaustade järjestus.
 
-*Ülesanne 4:* EndesMode on teenus, mis kontrollib taustarakenduste käivitamist, võib -olla mõnede programmide või teenuste kontekstis, mis peaksid töötama taustal, isegi kui kasutaja ei suhtle nendega otse. Seda teenust kasutavad programmid saavad täita selliseid ülesandeid nagu andmete sünkroonimine, teatised, värskendused ja muud toimingud, mis teostatakse siis, kui kasutaja ei ole aktiivne sobivas rakenduses. Teenuse sulgemine toob kaasa tõsiasja, et taustrakendused keelatakse käivitada, ja nad ei saa oma ülesandeid taustal täita. See võib mõjutada mõne rakenduse tööd, mis sõltuvad taustrežiimist nende funktsioonide täitmiseks (näiteks failide sünkroonimine, teatiste saamine jne).
+*Ülesanne 4:* EmbeddedMode on teenus, mis kontrollib taustarakenduste käivitamist, mõnede programmide või teenuste kontekstis, mis peaksid töötama taustal, isegi kui kasutaja ei suhtle nendega otse. Seda teenust kasutavad programmid saavad täita selliseid ülesandeid nagu andmete sünkroonimine, teatised, värskendused ja muud toimingud, mis teostatakse siis, kui kasutaja ei ole aktiivne sobivas rakenduses. Teenuse sulgemine toob kaasa tõsiasja, et taustrakendused keelatakse käivitada, ja nad ei saa oma ülesandeid taustal täita. See võib mõjutada mõne rakenduse tööd, mis sõltuvad taustrežiimist nende funktsioonide täitmiseks (näiteks failide sünkroonimine, teatiste saamine jne).
 
 ![praktikum15](./pildid/os15.1.png)
 ![praktikum15](./pildid/os15.2.png)

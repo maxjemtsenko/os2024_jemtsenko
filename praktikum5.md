@@ -1,7 +1,9 @@
 # Praktikum 5 - Failiõigused Linuxis
 
 Praktilised ülesanded hõlmavad minimaalseid juurdepääsuõigusi linuxi süsteemide failidele ja kataloogidele, samuti erinevate atribuutide ja turvamehhanismide kasutamist, nagu setuid, setgid, sticky bit, ACL ja chattr. Ülesanded aitavad teil mõista, kuidas hallata õigusi ja turvalisi faile mitme kasutajaga keskkonnas.
+
 *```peeter``` asemel ```maksim5```!*
+
 *Ülesanne 2:* Skripti edukaks käivitamiseks on teil vaja nii käivitamis (x) kui ka lugemisõigust (r), et süsteem saaks faili esmalt lugeda ja seejärel käivitada.
 
 *Ülesanne 3:* Turvalisus: Kui kasutaja loob faile, kuuluvad need vaikimisi talle ja tema isiklikule rühmale. See hoiab ära teiste kasutajate tarbetu juurdepääsu ja kaitseb juhuslike või soovimatute failimuudatuste eest, paindliku juurdepääsuõiguste haldamise, jagatud rühmade puhul väiksema veariski, konfigureerimise lihtsuse: igale kasutajale oma rühma andmine muudab juurdepääsu korraldamise lihtsamaks.
